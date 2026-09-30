@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" name="Directory" prompt="Directory?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_Directory" value="C:/Test/" internalId="_6rEvgDTOEeuXTauYxf3kuQ"/>
+    <contextParameter comment="" name="Directory" prompt="Directory?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_Directory" value="C:/Users/ALSI1B5S0423/OneDrive - ALPSGROUP/30_BusinessPromotion/C_Working/37_Qlik活動/QPP_QlikDataIntegrationPresales-CertificationExam【Wip】/Data Integration End-to-End  - Demo Kit - 20260902/Talend/" internalId="_6rEvgDTOEeuXTauYxf3kuQ"/>
     <contextParameter comment="" name="MySQL_DB" prompt="MySQL_DB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="crm" internalId="_6rEvgTTOEeuXTauYxf3kuQ"/>
     <contextParameter comment="" name="MySQL_Pass" prompt="MySQL_Pass?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Talend123" internalId="_6rEvgjTOEeuXTauYxf3kuQ"/>
     <contextParameter comment="" name="MySQL_User" prompt="MySQL_User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root" internalId="_6rEvgzTOEeuXTauYxf3kuQ"/>
     <contextParameter comment="" name="TDC_Pass" prompt="TDC_Pass?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_Password" value="" internalId="_6rEvhDTOEeuXTauYxf3kuQ"/>
     <contextParameter comment="" name="TDC_User" prompt="TDC_User?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_String" value="" internalId="_6rEvhTTOEeuXTauYxf3kuQ"/>
-    <contextParameter comment="" name="TDS_URL" prompt="TDS_URL?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_String" value="https://tds.us.cloud.talend.com/data-stewardship" internalId="_6rEvhzTOEeuXTauYxf3kuQ"/>
-    <contextParameter comment="" name="SF_UserID" prompt="SF_UserID?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="" internalId="_16Rq8BDkEfC80qGuslKB3g"/>
+    <contextParameter comment="" name="TDS_URL" prompt="TDS_URL?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_String" value="https://tds.ap.cloud.talend.com/data-stewardship" internalId="_6rEvhzTOEeuXTauYxf3kuQ"/>
+    <contextParameter comment="" name="SF_UserID" prompt="SF_UserID?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="&#x9;TOSHIYUKI.OKA" internalId="_16Rq8BDkEfC80qGuslKB3g"/>
     <contextParameter comment="" name="SF_Account" prompt="SF_Account?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="" internalId="_16Rq8RDkEfC80qGuslKB3g"/>
-    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_Password" value="" internalId="_16Rq8hDkEfC80qGuslKB3g"/>
-    <contextParameter comment="" name="SF_Warehouse" prompt="SF_Warehouse?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="" internalId="_16Rq8xDkEfC80qGuslKB3g"/>
-    <contextParameter comment="" name="SF_Database" prompt="SF_Database?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="" internalId="_16Rq9BDkEfC80qGuslKB3g"/>
-    <contextParameter comment="" name="SF_Schema" prompt="SF_Schema?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="" internalId="_16Rq9RDkEfC80qGuslKB3g"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_Password" value="enc:system.encryption.key.v1:0OnYWalSzWV9eO/bVpocPB5NXtsYJWa2qYGDHaQP7xLVHfKZUWCoOA==" internalId="_16Rq8hDkEfC80qGuslKB3g"/>
+    <contextParameter comment="" name="SF_Warehouse" prompt="SF_Warehouse?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="TEST_WH&#x9;" internalId="_16Rq8xDkEfC80qGuslKB3g"/>
+    <contextParameter comment="" name="SF_Database" prompt="SF_Database?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="OKA_TEST_DB" internalId="_16Rq9BDkEfC80qGuslKB3g"/>
+    <contextParameter comment="" name="SF_Schema" prompt="SF_Schema?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="OKA_TEST_SCHEMA" internalId="_16Rq9RDkEfC80qGuslKB3g"/>
     <contextParameter comment="" name="SF_Table" prompt="SF_Table?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="" internalId="_16Rq9hDkEfC80qGuslKB3g"/>
     <contextParameter comment="" name="TDP_PAT" prompt="TDP_PAT?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" internalId="_XpIMECXqEfCZuM3g3phR5g"/>
   </context>
@@ -60,7 +60,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v2:6lRNqmS+aJY+z2dkSOOoBqGS5tgOu3rDiHiu2fUB" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:Xv7mv/l8bX3FdADKcfOj+rGwybZLdSqmqD9aimLv" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -75,7 +75,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend/workspace_test/.metadata&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
@@ -83,7 +83,7 @@
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
     <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="JDBCOutput" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18" show="false"/>
     <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
@@ -95,7 +95,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v2:t5DeRMjrCcwPy5bi6DBykKIYSUiRAwQhbCM4h7YD" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SWBlUz+QYjGeJeunMNnWN9EkgOw7vTrua1IjM7dD" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -116,7 +116,7 @@
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
     <routinesParameter id="_uDi24CvPEemn7J3ssWShHg" name="r"/>
   </parameters>
-  <node componentName="tDataStewardshipTaskInput" componentVersion="0.37.53" offsetLabelX="0" offsetLabelY="0" posX="80" posY="120">
+  <node componentName="tDataStewardshipTaskInput" componentVersion="0.37.60" offsetLabelX="0" offsetLabelY="0" posX="80" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDataStewardshipTaskInput_1" show="false"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
